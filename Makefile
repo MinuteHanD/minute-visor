@@ -23,7 +23,6 @@ metal.bin: $(C_OBJECTS) $(ASM_OBJECTS)
 clean:
 	rm -f src/*.o metal.bin
 
-# QEMU TESTING - IDK WTF IS THIS
 run: metal.bin
 	qemu-system-x86_64 -enable-kvm -cpu host -m 512M -kernel metal.bin
 

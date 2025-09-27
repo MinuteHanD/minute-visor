@@ -1,1 +1,1 @@
-## Building a Type-1 Hypervisor from scratch
+## Building a type-1(bare metal) Hypervisor from scratch
